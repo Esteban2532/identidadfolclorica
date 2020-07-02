@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', serif;
+    background-color: white;
+    color: #1E1E1E
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+.navbar-brand {
+    width: 160px;
+    height: 50px;
+}
+
+.navbar-brand img {
+    width: 100%;
+    transform: translateY(-25%);
+}
+
+.slider {
+    margin: 0;
+    padding: 0;
+    box-shadow: -1px 8px 52px 4px rgba(37, 37, 38, 1);
+}
+
+.slider img {
+    width: 100%;
+}
+
+#nosotros {
+    margin-top: 60px;
+}
+
+.informacion {
+    /*  border: 1px solid #41537E; */
+    border-radius: 50px;
+}
+
+.informacion .titulo {
+    text-align: center;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 3em;
+    background: #41537E;
+    color: white;
+    border-radius: 30px;
+}
+
+.informacion .contenido {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.informacion span {
+    font-style: italic;
+    color: #D3BF77;
+}
+
+.separador {
+    background-color: antiquewhite;
+    height: 5px;
+}
+
+.informacion .imagen img {
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: -1px 8px 52px -10px rgba(117, 115, 106, 1);
+}
+
+.eventos {}
+
+.eventos h1 {
+    text-align: center;
+}
+
+.eventos img {
+    width: 100%;
+}
+
+.eventos .contenido {
+    font-size: 1.5em;
+}
+
+.eventos .card {
+    color: white;
+}
+
+.eventos .card .card-header {
+    height: 80px;
+}
+
+.eventos .card .card-body {
+    padding: 0;
+}
+
+.eventos .card-body .info {
+    padding: 5px;
+    position: absolute;
+    background: white;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+    top: 60%;
+    z-index: 10;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.eventos .card-body .info .card-title {
+    color: yellow;
+    font-style: italic;
+}
+
+.galeria {
+    height: 500px;
+}
+
+footer .container .centro {
+    color: #D3BF77;
+}
+
+footer .pre {
+    background-color: #525252;
+    color: aliceblue;
+}
+
+footer .pos {
+    background-color: #1E1E1E;
+    color: #D3BF77;
+}
+
+footer .sci {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .sci li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+footer .sci li a {
+    color: white;
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+footer.sci li a:hover {
+    color: #c1cf31;
+}
